@@ -1,0 +1,9 @@
+c:\users\kevin\documents\visual studio 2010\Projects\JewelleesHerbalsManager\JewelleesMySQL\bin\Debug\JewelleesMySQL.dll
+c:\users\kevin\documents\visual studio 2010\Projects\JewelleesHerbalsManager\JewelleesMySQL\bin\Debug\JewelleesMySQL.pdb
+c:\users\kevin\documents\visual studio 2010\Projects\JewelleesHerbalsManager\JewelleesMySQL\obj\Debug\ResolveAssemblyReference.cache
+c:\users\kevin\documents\visual studio 2010\Projects\JewelleesHerbalsManager\JewelleesMySQL\obj\Debug\JewelleesMySQL.dll
+c:\users\kevin\documents\visual studio 2010\Projects\JewelleesHerbalsManager\JewelleesMySQL\obj\Debug\JewelleesMySQL.pdb
+c:\users\kevin\documents\visual studio 2010\Projects\JewelleesHerbalsManager\JewelleesMySQL\bin\Debug\DBI.dll
+c:\users\kevin\documents\visual studio 2010\Projects\JewelleesHerbalsManager\JewelleesMySQL\bin\Debug\Utilities.dll
+c:\users\kevin\documents\visual studio 2010\Projects\JewelleesHerbalsManager\JewelleesMySQL\bin\Debug\DBI.pdb
+c:\users\kevin\documents\visual studio 2010\Projects\JewelleesHerbalsManager\JewelleesMySQL\bin\Debug\Utilities.pdb

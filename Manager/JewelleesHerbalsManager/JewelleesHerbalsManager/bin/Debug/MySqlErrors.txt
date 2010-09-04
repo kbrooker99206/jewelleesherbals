@@ -1,0 +1,14 @@
+8/16/2010 2:14:34 PM: Access denied for user ''@'localhost' (using password: NO)
+8/16/2010 2:15:02 PM: Access denied for user ''@'localhost' (using password: NO)
+8/16/2010 2:16:51 PM: Access denied for user ''@'localhost' (using password: NO)
+8/16/2010 8:37:48 PM: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'select WHERE id=1' at line 1
+8/16/2010 8:39:10 PM: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'select WHERE id=2' at line 1
+8/16/2010 9:00:27 PM: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '$name', '$email', '$phone','$inquiry', 'N/A');";
+		$result = $db->query($query)' at line 1
+8/16/2010 9:01:15 PM: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '$name', '$email', '$phone','$inquiry', 'NA');";
+		$result = $db->query($query);' at line 1
+8/17/2010 6:45:10 AM: Table 'jewelleesherbals.product_cats' doesn't exist
+8/17/2010 10:28:57 AM: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id=1' at line 1
+8/17/2010 10:35:49 AM: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''This is a testing Only Category'')' at line 1
+8/17/2010 11:20:59 AM: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id=4' at line 1
+8/17/2010 11:28:47 AM: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''blah'')' at line 1

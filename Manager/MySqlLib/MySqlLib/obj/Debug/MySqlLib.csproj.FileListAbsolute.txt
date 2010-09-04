@@ -1,0 +1,5 @@
+C:\AnhDev\MySqlLib\MySqlLib\obj\Debug\ResolveAssemblyReference.cache
+C:\AnhDev\MySqlLib\MySqlLib\bin\Debug\MySqlLib.dll
+C:\AnhDev\MySqlLib\MySqlLib\bin\Debug\MySqlLib.pdb
+C:\AnhDev\MySqlLib\MySqlLib\obj\Debug\MySqlLib.dll
+C:\AnhDev\MySqlLib\MySqlLib\obj\Debug\MySqlLib.pdb
