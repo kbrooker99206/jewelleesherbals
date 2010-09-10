@@ -14,3 +14,20 @@ C:\Users\Kevin\Documents\Visual Studio 2010\Projects\JewelleesHerbalsManager\Jew
 C:\Users\Kevin\Documents\Visual Studio 2010\Projects\JewelleesHerbalsManager\JewelleesHerbalsManager\obj\x86\Debug\JewelleesHerbalsManager.frmClients.resources
 C:\Users\Kevin\Documents\Visual Studio 2010\Projects\JewelleesHerbalsManager\JewelleesHerbalsManager\bin\Debug\MySqlLib.dll
 C:\Users\Kevin\Documents\Visual Studio 2010\Projects\JewelleesHerbalsManager\JewelleesHerbalsManager\bin\Debug\MySqlLib.pdb
+C:\jewelleesherbals\Manager\JewelleesHerbalsManager\JewelleesHerbalsManager\bin\Debug\JewelleesHerbalsManager.exe.config
+C:\jewelleesherbals\Manager\JewelleesHerbalsManager\JewelleesHerbalsManager\obj\x86\Debug\JewelleesHerbalsManager.exe
+C:\jewelleesherbals\Manager\JewelleesHerbalsManager\JewelleesHerbalsManager\obj\x86\Debug\JewelleesHerbalsManager.pdb
+C:\jewelleesherbals\Manager\JewelleesHerbalsManager\JewelleesHerbalsManager\bin\Debug\JewelleesHerbalsManager.exe
+C:\jewelleesherbals\Manager\JewelleesHerbalsManager\JewelleesHerbalsManager\bin\Debug\JewelleesHerbalsManager.pdb
+C:\jewelleesherbals\Manager\JewelleesHerbalsManager\JewelleesHerbalsManager\bin\Debug\MySqlLib.pdb
+C:\jewelleesherbals\Manager\JewelleesHerbalsManager\JewelleesHerbalsManager\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\jewelleesherbals\Manager\JewelleesHerbalsManager\JewelleesHerbalsManager\obj\x86\Debug\JewelleesHerbalsManager.frmClients.resources
+C:\jewelleesherbals\Manager\JewelleesHerbalsManager\JewelleesHerbalsManager\obj\x86\Debug\JewelleesHerbalsManager.frmMain.resources
+C:\jewelleesherbals\Manager\JewelleesHerbalsManager\JewelleesHerbalsManager\obj\x86\Debug\JewelleesHerbalsManager.frmPages.resources
+C:\jewelleesherbals\Manager\JewelleesHerbalsManager\JewelleesHerbalsManager\obj\x86\Debug\JewelleesHerbalsManager.frmProducts.resources
+C:\jewelleesherbals\Manager\JewelleesHerbalsManager\JewelleesHerbalsManager\obj\x86\Debug\JewelleesHerbalsManager.frmSubmissions.resources
+C:\jewelleesherbals\Manager\JewelleesHerbalsManager\JewelleesHerbalsManager\obj\x86\Debug\JewelleesHerbalsManager.Properties.Resources.resources
+C:\jewelleesherbals\Manager\JewelleesHerbalsManager\JewelleesHerbalsManager\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\jewelleesherbals\Manager\JewelleesHerbalsManager\JewelleesHerbalsManager\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\jewelleesherbals\Manager\JewelleesHerbalsManager\JewelleesHerbalsManager\bin\Debug\MySqlLib.dll
+C:\jewelleesherbals\Manager\JewelleesHerbalsManager\JewelleesHerbalsManager\obj\x86\Debug\JewelleesHerbalsManager.frmLogs.resources

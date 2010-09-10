@@ -57,5 +57,14 @@ namespace JewelleesHerbalsManager
             fClient.Show();
             Cursor = Cursors.Default;
         }
+
+        private void visitorsLogToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Cursor = Cursors.WaitCursor;
+            frmLogs fLog = new frmLogs();
+            fLog.MdiParent = this;
+            fLog.Show();
+            Cursor = Cursors.Default;
+        }
     }
 }

@@ -20,19 +20,19 @@ namespace JewelleesHerbalsManager
         Dictionary<int, Pages> pages;
         public frmPages()
         {
-            //bool notExisting = false;
-            //Mutex mutex = new Mutex(true, "PageManager", out notExisting);
-            //if (notExisting)
-            //{
+            bool notExisting = false;
+            Mutex mutex = new Mutex(true, "PageManager", out notExisting);
+            if (notExisting)
+            {
                 InitializeComponent();
-            //}
-            //else
-            //{
-            //    MessageBox.Show("Another instance is already running");
-            //    this.Close();
-            //}
+            }
+            else
+            {
+                MessageBox.Show("Another instance is already running");
+                this.Close();
+            }
 
-            //GC.KeepAlive(mutex);
+            GC.KeepAlive(mutex);
             pages = new Dictionary<int, Pages>();
         }
         private void SelectAll(object sender, System.Windows.Forms.KeyPressEventArgs e)

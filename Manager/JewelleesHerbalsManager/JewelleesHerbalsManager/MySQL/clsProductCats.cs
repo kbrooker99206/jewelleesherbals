@@ -8,7 +8,7 @@ using System.Windows.Forms;
 using MySql.Data.MySqlClient;
 using MysqlLib.Command;
 
-namespace ANHAcctMgr
+namespace JewelleesHerbalsManager.MySQL
 {
     class ProductCats
     {

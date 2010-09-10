@@ -40,39 +40,39 @@
             this.txtName = new System.Windows.Forms.TextBox();
             this.lsvProductCats = new System.Windows.Forms.ListView();
             this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.deleteCategoryToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.reloadListToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.lsvProducts = new System.Windows.Forms.ListView();
-            this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.label4 = new System.Windows.Forms.Label();
-            this.txtProductCategory = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.btnProductAdd = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.txtProductDescription = new System.Windows.Forms.TextBox();
-            this.txtProductWeight = new System.Windows.Forms.TextBox();
-            this.txtProductName = new System.Windows.Forms.TextBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.txtPaypalPrice = new System.Windows.Forms.TextBox();
+            this.label11 = new System.Windows.Forms.Label();
+            this.txtPaypalWeight = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.txtProductPrice = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.txtPaypalType = new System.Windows.Forms.TextBox();
             this.txtProductImage = new System.Windows.Forms.TextBox();
-            this.label10 = new System.Windows.Forms.Label();
-            this.txtPaypalPrice = new System.Windows.Forms.TextBox();
-            this.label11 = new System.Windows.Forms.Label();
-            this.txtPaypalWeight = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.txtProductCategory = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.btnProductAdd = new System.Windows.Forms.Button();
             this.btnProductUpdate = new System.Windows.Forms.Button();
-            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.deleteCategoryToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.reloadListToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.txtProductDescription = new System.Windows.Forms.TextBox();
+            this.txtProductWeight = new System.Windows.Forms.TextBox();
+            this.txtProductName = new System.Windows.Forms.TextBox();
+            this.lsvProducts = new System.Windows.Forms.ListView();
+            this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.contextMenuStrip2 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.deleteProductToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
-            this.tabPage2.SuspendLayout();
             this.contextMenuStrip1.SuspendLayout();
+            this.tabPage2.SuspendLayout();
             this.contextMenuStrip2.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -188,6 +188,27 @@
             this.columnHeader1.Text = "Select Category";
             this.columnHeader1.Width = 259;
             // 
+            // contextMenuStrip1
+            // 
+            this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.deleteCategoryToolStripMenuItem,
+            this.reloadListToolStripMenuItem});
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(159, 48);
+            // 
+            // deleteCategoryToolStripMenuItem
+            // 
+            this.deleteCategoryToolStripMenuItem.Name = "deleteCategoryToolStripMenuItem";
+            this.deleteCategoryToolStripMenuItem.Size = new System.Drawing.Size(158, 22);
+            this.deleteCategoryToolStripMenuItem.Text = "Delete Category";
+            this.deleteCategoryToolStripMenuItem.Click += new System.EventHandler(this.deleteCategoryToolStripMenuItem_Click);
+            // 
+            // reloadListToolStripMenuItem
+            // 
+            this.reloadListToolStripMenuItem.Name = "reloadListToolStripMenuItem";
+            this.reloadListToolStripMenuItem.Size = new System.Drawing.Size(158, 22);
+            this.reloadListToolStripMenuItem.Text = "Reload List";
+            // 
             // tabPage2
             // 
             this.tabPage2.Controls.Add(this.label10);
@@ -220,25 +241,85 @@
             this.tabPage2.Text = "Products";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
-            // lsvProducts
+            // label10
             // 
-            this.lsvProducts.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.columnHeader2});
-            this.lsvProducts.ContextMenuStrip = this.contextMenuStrip2;
-            this.lsvProducts.GridLines = true;
-            this.lsvProducts.Location = new System.Drawing.Point(6, 6);
-            this.lsvProducts.MultiSelect = false;
-            this.lsvProducts.Name = "lsvProducts";
-            this.lsvProducts.Size = new System.Drawing.Size(193, 390);
-            this.lsvProducts.TabIndex = 37;
-            this.lsvProducts.UseCompatibleStateImageBehavior = false;
-            this.lsvProducts.View = System.Windows.Forms.View.Details;
-            this.lsvProducts.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.lsvProducts_MouseDoubleClick);
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(205, 162);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(67, 13);
+            this.label10.TabIndex = 58;
+            this.label10.Text = "PayPal Price";
             // 
-            // columnHeader2
+            // txtPaypalPrice
             // 
-            this.columnHeader2.Text = "Select Product";
-            this.columnHeader2.Width = 259;
+            this.txtPaypalPrice.Location = new System.Drawing.Point(314, 155);
+            this.txtPaypalPrice.Name = "txtPaypalPrice";
+            this.txtPaypalPrice.Size = new System.Drawing.Size(70, 20);
+            this.txtPaypalPrice.TabIndex = 57;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(205, 187);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(77, 13);
+            this.label11.TabIndex = 56;
+            this.label11.Text = "PayPal Weight";
+            // 
+            // txtPaypalWeight
+            // 
+            this.txtPaypalWeight.Location = new System.Drawing.Point(314, 179);
+            this.txtPaypalWeight.Name = "txtPaypalWeight";
+            this.txtPaypalWeight.Size = new System.Drawing.Size(70, 20);
+            this.txtPaypalWeight.TabIndex = 55;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(205, 114);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(80, 13);
+            this.label7.TabIndex = 54;
+            this.label7.Text = "Displayed Price";
+            // 
+            // txtProductPrice
+            // 
+            this.txtProductPrice.Location = new System.Drawing.Point(314, 107);
+            this.txtProductPrice.Name = "txtProductPrice";
+            this.txtProductPrice.Size = new System.Drawing.Size(70, 20);
+            this.txtProductPrice.TabIndex = 53;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(205, 139);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(67, 13);
+            this.label8.TabIndex = 52;
+            this.label8.Text = "PayPal Type";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(205, 89);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(59, 13);
+            this.label9.TabIndex = 51;
+            this.label9.Text = "Image Link";
+            // 
+            // txtPaypalType
+            // 
+            this.txtPaypalType.Location = new System.Drawing.Point(314, 131);
+            this.txtPaypalType.Name = "txtPaypalType";
+            this.txtPaypalType.Size = new System.Drawing.Size(70, 20);
+            this.txtPaypalType.TabIndex = 50;
+            // 
+            // txtProductImage
+            // 
+            this.txtProductImage.Location = new System.Drawing.Point(314, 82);
+            this.txtProductImage.Name = "txtProductImage";
+            this.txtProductImage.Size = new System.Drawing.Size(215, 20);
+            this.txtProductImage.TabIndex = 49;
             // 
             // label4
             // 
@@ -275,6 +356,16 @@
             this.btnProductAdd.Text = "Add";
             this.btnProductAdd.UseVisualStyleBackColor = true;
             this.btnProductAdd.Click += new System.EventHandler(this.btnProductAdd_Click);
+            // 
+            // btnProductUpdate
+            // 
+            this.btnProductUpdate.Location = new System.Drawing.Point(7, 404);
+            this.btnProductUpdate.Name = "btnProductUpdate";
+            this.btnProductUpdate.Size = new System.Drawing.Size(340, 23);
+            this.btnProductUpdate.TabIndex = 44;
+            this.btnProductUpdate.Text = "Update";
+            this.btnProductUpdate.UseVisualStyleBackColor = true;
+            this.btnProductUpdate.Click += new System.EventHandler(this.btnProductUpdate_Click);
             // 
             // label2
             // 
@@ -326,116 +417,25 @@
             this.txtProductName.Size = new System.Drawing.Size(215, 20);
             this.txtProductName.TabIndex = 38;
             // 
-            // label7
+            // lsvProducts
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(205, 114);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(80, 13);
-            this.label7.TabIndex = 54;
-            this.label7.Text = "Displayed Price";
+            this.lsvProducts.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.columnHeader2});
+            this.lsvProducts.ContextMenuStrip = this.contextMenuStrip2;
+            this.lsvProducts.GridLines = true;
+            this.lsvProducts.Location = new System.Drawing.Point(6, 6);
+            this.lsvProducts.MultiSelect = false;
+            this.lsvProducts.Name = "lsvProducts";
+            this.lsvProducts.Size = new System.Drawing.Size(193, 390);
+            this.lsvProducts.TabIndex = 37;
+            this.lsvProducts.UseCompatibleStateImageBehavior = false;
+            this.lsvProducts.View = System.Windows.Forms.View.Details;
+            this.lsvProducts.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.lsvProducts_MouseDoubleClick);
             // 
-            // txtProductPrice
+            // columnHeader2
             // 
-            this.txtProductPrice.Location = new System.Drawing.Point(314, 107);
-            this.txtProductPrice.Name = "txtProductPrice";
-            this.txtProductPrice.Size = new System.Drawing.Size(70, 20);
-            this.txtProductPrice.TabIndex = 53;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(205, 139);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(67, 13);
-            this.label8.TabIndex = 52;
-            this.label8.Text = "PayPal Type";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(205, 89);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(59, 13);
-            this.label9.TabIndex = 51;
-            this.label9.Text = "Image Link";
-            // 
-            // txtPaypalType
-            // 
-            this.txtPaypalType.Location = new System.Drawing.Point(314, 131);
-            this.txtPaypalType.Name = "txtPaypalType";
-            this.txtPaypalType.Size = new System.Drawing.Size(70, 20);
-            this.txtPaypalType.TabIndex = 50;
-            // 
-            // txtProductImage
-            // 
-            this.txtProductImage.Location = new System.Drawing.Point(314, 82);
-            this.txtProductImage.Name = "txtProductImage";
-            this.txtProductImage.Size = new System.Drawing.Size(215, 20);
-            this.txtProductImage.TabIndex = 49;
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(205, 162);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(67, 13);
-            this.label10.TabIndex = 58;
-            this.label10.Text = "PayPal Price";
-            // 
-            // txtPaypalPrice
-            // 
-            this.txtPaypalPrice.Location = new System.Drawing.Point(314, 155);
-            this.txtPaypalPrice.Name = "txtPaypalPrice";
-            this.txtPaypalPrice.Size = new System.Drawing.Size(70, 20);
-            this.txtPaypalPrice.TabIndex = 57;
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(205, 187);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(77, 13);
-            this.label11.TabIndex = 56;
-            this.label11.Text = "PayPal Weight";
-            // 
-            // txtPaypalWeight
-            // 
-            this.txtPaypalWeight.Location = new System.Drawing.Point(314, 179);
-            this.txtPaypalWeight.Name = "txtPaypalWeight";
-            this.txtPaypalWeight.Size = new System.Drawing.Size(70, 20);
-            this.txtPaypalWeight.TabIndex = 55;
-            // 
-            // btnProductUpdate
-            // 
-            this.btnProductUpdate.Location = new System.Drawing.Point(7, 404);
-            this.btnProductUpdate.Name = "btnProductUpdate";
-            this.btnProductUpdate.Size = new System.Drawing.Size(340, 23);
-            this.btnProductUpdate.TabIndex = 44;
-            this.btnProductUpdate.Text = "Update";
-            this.btnProductUpdate.UseVisualStyleBackColor = true;
-            this.btnProductUpdate.Click += new System.EventHandler(this.btnProductUpdate_Click);
-            // 
-            // contextMenuStrip1
-            // 
-            this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.deleteCategoryToolStripMenuItem,
-            this.reloadListToolStripMenuItem});
-            this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(159, 48);
-            // 
-            // deleteCategoryToolStripMenuItem
-            // 
-            this.deleteCategoryToolStripMenuItem.Name = "deleteCategoryToolStripMenuItem";
-            this.deleteCategoryToolStripMenuItem.Size = new System.Drawing.Size(158, 22);
-            this.deleteCategoryToolStripMenuItem.Text = "Delete Category";
-            this.deleteCategoryToolStripMenuItem.Click += new System.EventHandler(this.deleteCategoryToolStripMenuItem_Click);
-            // 
-            // reloadListToolStripMenuItem
-            // 
-            this.reloadListToolStripMenuItem.Name = "reloadListToolStripMenuItem";
-            this.reloadListToolStripMenuItem.Size = new System.Drawing.Size(158, 22);
-            this.reloadListToolStripMenuItem.Text = "Reload List";
+            this.columnHeader2.Text = "Select Product";
+            this.columnHeader2.Width = 259;
             // 
             // contextMenuStrip2
             // 
@@ -459,13 +459,14 @@
             this.Controls.Add(this.tabControl1);
             this.Name = "frmProducts";
             this.Text = "Product Manager";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frmProducts_FormClosed);
             this.Load += new System.EventHandler(this.frmProducts_Load);
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
+            this.contextMenuStrip1.ResumeLayout(false);
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
-            this.contextMenuStrip1.ResumeLayout(false);
             this.contextMenuStrip2.ResumeLayout(false);
             this.ResumeLayout(false);
 

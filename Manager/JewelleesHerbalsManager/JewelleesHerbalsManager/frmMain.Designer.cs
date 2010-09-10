@@ -119,6 +119,7 @@
             this.visitorsLogToolStripMenuItem.Name = "visitorsLogToolStripMenuItem";
             this.visitorsLogToolStripMenuItem.Size = new System.Drawing.Size(162, 22);
             this.visitorsLogToolStripMenuItem.Text = "Visitors Log";
+            this.visitorsLogToolStripMenuItem.Click += new System.EventHandler(this.visitorsLogToolStripMenuItem_Click);
             // 
             // clientsToolStripMenuItem
             // 
@@ -151,7 +152,7 @@
             // viewSiteToolStripMenuItem
             // 
             this.viewSiteToolStripMenuItem.Name = "viewSiteToolStripMenuItem";
-            this.viewSiteToolStripMenuItem.Size = new System.Drawing.Size(121, 22);
+            this.viewSiteToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.viewSiteToolStripMenuItem.Text = "View Site";
             // 
             // pictureBox1

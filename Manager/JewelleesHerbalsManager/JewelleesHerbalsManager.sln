@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JewelleesHerbalsManager", "JewelleesHerbalsManager\JewelleesHerbalsManager.csproj", "{DBEB7EDD-EC9D-4778-BEEE-2B0B41CCC94D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySqlLib", "..\..\..\..\..\..\AnhDev\MySqlLib\MySqlLib\MySqlLib.csproj", "{01FA3E89-B0FF-40C7-8A0D-4E3200C62E98}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,16 +23,6 @@ Global
 		{DBEB7EDD-EC9D-4778-BEEE-2B0B41CCC94D}.Release|Mixed Platforms.Build.0 = Release|x86
 		{DBEB7EDD-EC9D-4778-BEEE-2B0B41CCC94D}.Release|x86.ActiveCfg = Release|x86
 		{DBEB7EDD-EC9D-4778-BEEE-2B0B41CCC94D}.Release|x86.Build.0 = Release|x86
-		{01FA3E89-B0FF-40C7-8A0D-4E3200C62E98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{01FA3E89-B0FF-40C7-8A0D-4E3200C62E98}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{01FA3E89-B0FF-40C7-8A0D-4E3200C62E98}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{01FA3E89-B0FF-40C7-8A0D-4E3200C62E98}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
-		{01FA3E89-B0FF-40C7-8A0D-4E3200C62E98}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{01FA3E89-B0FF-40C7-8A0D-4E3200C62E98}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{01FA3E89-B0FF-40C7-8A0D-4E3200C62E98}.Release|Any CPU.Build.0 = Release|Any CPU
-		{01FA3E89-B0FF-40C7-8A0D-4E3200C62E98}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
-		{01FA3E89-B0FF-40C7-8A0D-4E3200C62E98}.Release|Mixed Platforms.Build.0 = Release|Any CPU
-		{01FA3E89-B0FF-40C7-8A0D-4E3200C62E98}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
